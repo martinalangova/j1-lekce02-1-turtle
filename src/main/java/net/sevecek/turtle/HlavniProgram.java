@@ -8,19 +8,16 @@ public class HlavniProgram {
         Turtle zofka;
 
         zofka = new Turtle();
-        zofka.move(50);
-        zofka.turnRight(45);
-        zofka.move(50);
-        zofka.turnRight(90);
-        zofka.move(50);
-        zofka.turnRight(45);
-        zofka.move(50);
-        zofka.turnRight(90);
+        zofka.turnRight(180);
+        zofka.move(100);
+        zofka.turnLeft(90);
+        zofka.move(100);
+        zofka.turnLeft(90);
+        zofka.move(100);
+        zofka.turnLeft(90);
+        zofka.move(100);
+        zofka.turnRight(135);
         zofka.move(70);
-        zofka.penUp();
-        zofka.turnRight(90);
-        zofka.move(50);
-        zofka.penDown();
         zofka.turnRight(90);
         zofka.move(70);
 
